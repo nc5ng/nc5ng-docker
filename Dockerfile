@@ -1,4 +1,4 @@
-FROM nc5ng/gmt:jupyter
+FROM nc5ng/gmt:6-jupyter
 
 COPY requirements.txt /requirements-nc5ng.txt
 COPY Example.ipynb /workspace/Example-nc5ng.ipynb
